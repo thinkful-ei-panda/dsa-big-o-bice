@@ -1,9 +1,9 @@
-# Answers
+# DSA Big O - Answers
 
 ## 1. a. What is the Big O for this?
 ### Constant time O(1)
 - I honestly have no idea how this would apply.
-- 
+
 ## 1. b. What is the Big O for this?
 ### Linear time O(n)
 - it has to loop the the array and run a comparison against every item.

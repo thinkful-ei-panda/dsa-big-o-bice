@@ -40,15 +40,15 @@
 
 // moves:
 
-// 1. d1 from b to a
-// 2. d2 from b to c
-// 3. d1 from a to c
-// 4. d3 from b to a
-// 5. d1 from c to a
-// 6. d2 from c to b
-// 7. d1 from a to c
-// 8. d2 from b to a
-// 9. d1 from c to a
+// 1. d1 from b to a - smallest to empty
+// 2. d2 from b to c - medium to empty
+// 3. d1 from a to c - smallest to medium
+// 4. d3 from b to a - largest to empty
+// 5. d1 from c to a - smallest to largest
+// 6. d2 from c to b - medium to largest
+// 7. d1 from a to c - smallest to largest
+// 8. d2 from b to a *
+// 9. d1 from c to a *
 
 const towerOfHanoi=disks=>{
 	let rodA=[];
